@@ -48,7 +48,7 @@ let s:goldenrod="#daa520"
 exe 'hi Normal guifg='s:whitesmoke' guibg='s:dodgerblue4 
 exe 'hi Cursor guifg='s:dodgerblue4' guibg='s:ffb90f 
 exe 'hi CursorLine  guibg='s:bg2 
-exe 'hi CursorColumn  guibg='s:whitesmoke
+exe 'hi CursorColumn  guifg='s:whitesmoke' guibg='s:steelblue3
 exe 'hi ColorColumn  guibg='s:bg2 
 exe 'hi LineNr guifg='s:gray72' guibg='s:dodgerblue4 
 exe 'hi CursorLineNr guifg='s:gray72' guibg='s:dodgerblue4' gui=bold cterm=bold' 
